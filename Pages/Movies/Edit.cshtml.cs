@@ -20,21 +20,21 @@ namespace RazorPagesTest.Pages.Movies
             _context = context;
         }
 
-        [BindProperty]
-        public Movie Movie { get; set; } = default!;
+        [BindProperty] public Movie Movie { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Movie == null)
             {
                 return NotFound();
             }
 
-            var movie =  await _context.Movie.FirstOrDefaultAsync(m => m.Id == id);
+            var movie = await _context.Movie.FirstOrDefaultAsync(m => m.Id == id);
             if (movie == null)
             {
                 return NotFound();
             }
+
             Movie = movie;
             return Page();
         }

@@ -275,3 +275,4 @@
 /Users/faryazhajimuradov/Desktop/C# proj/RazorPagesTest/RazorPagesTest/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
 /Users/faryazhajimuradov/Desktop/C# proj/RazorPagesTest/RazorPagesTest/obj/Debug/net8.0/RazorPagesTest.csproj.AssemblyReference.cache
 /Users/faryazhajimuradov/Desktop/C# proj/RazorPagesTest/RazorPagesTest/obj/Debug/net8.0/RazorPag.D996BD46.Up2Date
+/Users/faryazhajimuradov/Desktop/C# proj/RazorPagesTest/RazorPagesTest/obj/Debug/net8.0/RazorPagesTest.sourcelink.json
